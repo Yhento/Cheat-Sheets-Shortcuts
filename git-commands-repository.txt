@@ -25,3 +25,7 @@ git push -u origin main - Set the default push behavior of your git project
 git remote add origin REMOTE-URL - Connect to a github repository
 
 git remote -v  - Test connection to the above!
+
+git fetch --all - fetch the latest from the remote repository
+
+git reset --hard origin/main - overwrite the current branch with the latest version in the remote repository
